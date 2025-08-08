@@ -1,21 +1,23 @@
 <script setup>
-import "./Hero.css"
+import './Hero.css'
 </script>
 
 <template>
   <div class="hero">
     <div class="container">
       <div class="hero-item"> 
-        <p><i>Your first step towards digital success</i></p>
-        <h1>I Help You To Make<br>
-          Your Ideas <span>Online 👨‍💻</span><br>
+        <p><i>Easily split YouTube videos into chapters</i></p>
+        <h1>
+          YTChap – The Easiest Way to<br>
+          Organize Your <span>Videos 👨‍💻</span><br>
         </h1>
+
         
         <div class="hero-btn">
-          <a href="#contact">
+          <router-link to="/ytchap">
             Get Started
             <i class="fa-solid fa-paper-plane"></i>
-          </a>
+          </router-link>
         </div>
 
       </div>

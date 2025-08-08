@@ -1,7 +1,9 @@
 <script>
-import YoutubeChapter from './YTChap.css'
+import './YTChap.css'
 </script>
 
 <template>
-  <div class="container"></div>
+  <div class="container">
+    <h1>YTChap</h1>
+  </div>
 </template>

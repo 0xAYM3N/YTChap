@@ -6,14 +6,14 @@ import './Navbar.css'
   <div class="navbar">
     <div class="container">
       <div class="logo">
-        <a href="/">YTChap</a>
+        <router-link to="/">YTChap</router-link>
       </div>
 
       <div class="links">
-        <a href="/Home">Home</a>
-        <a href="/Home">Home</a>
-        <a href="/Home">Home</a>
-        <a href="/Home">Home</a>
+        <router-link to="/">Home</router-link>
+        <router-link to="/">Home</router-link>
+        <router-link to="/">Home</router-link>
+        <router-link to="/">Home</router-link>
       </div>
     </div>
   </div>

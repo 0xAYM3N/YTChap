@@ -12,6 +12,7 @@
 
 .hero-item h1 {
   font-size: 50px;
+  line-height: 5rem;
   color: var(--white);
 }
 
