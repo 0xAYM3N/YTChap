@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--navbar);
-  padding: 20px 40px;
+  padding: 18px 20px;
   margin-top: 10px;
   border-radius: 10px;
   border: 1px solid var(--border);
@@ -11,15 +11,15 @@
 
 .navbar .logo a {
   color: var(--white);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .navbar .links {
   display: flex;
-  gap: 25px;
+  gap: 20px;
 }
 
 .navbar .links a {
   color: var(--white);
-  font-size: 20px;
+  font-size: 16px;
 }

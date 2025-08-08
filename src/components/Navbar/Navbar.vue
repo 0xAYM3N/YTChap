@@ -6,7 +6,7 @@ import './Navbar.css'
   <div class="navbar">
     <div class="container">
       <div class="logo">
-        <a href="/">Athir</a>
+        <a href="/">YTChap</a>
       </div>
 
       <div class="links">
