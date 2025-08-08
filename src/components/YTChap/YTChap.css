@@ -1,1 +1,73 @@
+.ytchap .container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.ytchap .video {
+  width: 80%;
+}
+
+.ytchap .video .select-file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  border-radius: 5px;
+  border: 2px dashed var(--border);
+  color: var(--white);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.ytchap .video .select-file:hover{
+  background-color: #00000050;
+}
+
+.ytchap .video input[type="file"] {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.ytchap .control-btns {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+  .ytchap .control-btns button {
+  background-color: var(--navbar);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.chapter-container {
+  background-color: #00000080;
+  color: var(--white);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 50%;
+  border: 1px solid var(--border);
+}
+
+.chapter-container h1 {
+  background-color: #000;
+  border-bottom: 1px solid #333;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+.chapter-container .video-chapters h3 {
+  background-color: #66666620;
+  border-bottom: 1px solid #333;
+  font-size: 16px;
+  padding: 10px;
+}
 
