@@ -6,7 +6,7 @@ import './Navbar.css'
   <div class="navbar">
     <div class="container">
       <div class="logo">
-        <router-link to="/">YTChap</router-link>
+        <router-link to="/">YTCHAP</router-link>
       </div>
 
       <div class="links">

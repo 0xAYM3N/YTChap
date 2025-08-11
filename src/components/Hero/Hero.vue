@@ -12,11 +12,10 @@ import './Hero.css'
           Organize Your <span>Videos 👨‍💻</span><br>
         </h1>
 
-        
         <div class="hero-btn">
           <router-link to="/ytchap">
             Get Started
-            <i class="fa-solid fa-paper-plane"></i>
+            <i class="fa-solid fa-rocket"></i>
           </router-link>
         </div>
 

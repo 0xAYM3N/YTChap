@@ -13,6 +13,7 @@
 
 .navbar .logo a {
   color: var(--white);
+  font-weight: bold;
   font-size: 20px;
 }
 
